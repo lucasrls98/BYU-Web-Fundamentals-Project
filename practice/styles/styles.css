@@ -6,11 +6,6 @@
     background-color: white;
     color: steelblue;
 }
-
-nav{
-    background-color: steelblue;
-    padding: 10px;
-}
 a{
     color:white;
     margin: 40px;
@@ -29,15 +24,22 @@ img{
 p{
     width: 80%;    
 }
-footer{
-    background-color: steelblue;
-    color: white;
-}
 nav, footer{
     text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
 }
 main p{
     width: 80%;
-    margin: 50px; auto;
+    margin: 50px auto ;
     text-align: center;
+}
+footer p{
+    font-size: 20px;
+    margin: 20px auto;
+}
+a:hover{
+    background-color: white;
+    color: steelblue;
 }
