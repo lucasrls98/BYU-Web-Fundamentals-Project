@@ -225,6 +225,78 @@ footer .social img{
     footer {
         margin-top: 25px;
     }
+     
+    
+    
 }
+.rivers-title{
+    text-align: center;
+}
+.container{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 25px 0px 0px 0px;
+    margin: 0 auto;
+    max-width: 1450px;
+    min-width: 964px;
+
+
+}
+.box_1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+}
+.img_1{
+    width: 40%;
+    height: 350px; 
+    margin: auto;
+    background-image: url("../images/main-fork.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+.text_1{
+    width: 90%;
+    justify-self: center;
+
+
+}
+.text_2{
+    width: 40%;
+    margin: auto;
+    
+
+
+
+}
+.img_2{
+    width: 40%;
+    height: 350px; 
+    margin: 50px auto 0 auto;
+    background-image: url("../images/main-fork.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.img_3{
+    width: 90%;
+    background-image: url("../images/grand-canyon-arizona.jpg");
+    height: 300px;
+    margin: 70px auto ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.text_3{
+    width: 80%;
+    margin: auto;
+
+}
+
 
 
