@@ -265,9 +265,18 @@ footer .social img{
 
 
 }
-.text_2{
+.box_2{
+    display: flex;
+    flex-direction: column;
     width: 40%;
-    margin: auto;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+.text_2{
+    width: 90%;
+    justify-self: center;
+    
     
 
 
@@ -277,7 +286,7 @@ footer .social img{
     width: 40%;
     height: 350px; 
     margin: 50px auto 0 auto;
-    background-image: url("../images/main-fork.jpg");
+    background-image: url("../images/desolation-grandcanyon.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 
@@ -295,8 +304,16 @@ footer .social img{
 .text_3{
     width: 80%;
     margin: auto;
+    padding: 20px;
 
 }
+.box_3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
 
+}
 
 
