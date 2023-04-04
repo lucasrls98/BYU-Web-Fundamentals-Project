@@ -340,20 +340,7 @@ footer p{
     text-decoration: none;
     cursor: pointer;
   }
-/* .contactme-grid{
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(10, 1fr);
- }
-  
-#contact-hero{    
-    grid-column: 3/10;
-    grid-row: 2/10
-  }
- #contact-hero-img{
-    grid-column: 8/10;
-    grid-row: 2/10
- }  */
+
 
  .contactme-grid {
     display: grid;
