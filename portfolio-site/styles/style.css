@@ -340,7 +340,131 @@ footer p{
     text-decoration: none;
     cursor: pointer;
   }
+/* .contactme-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+ }
   
+#contact-hero{    
+    grid-column: 3/10;
+    grid-row: 2/10
+  }
+ #contact-hero-img{
+    grid-column: 8/10;
+    grid-row: 2/10
+ }  */
+
+ .contactme-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 40px;
+  }
+  
+  #contact-hero {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);      
+    grid-column: 1/4;    
+    align-items: center;
+    justify-content: center;
+    background-color: #433068;
+    padding: 20px;
+    border-radius: 10px;
+    
+  }
+  
+  #contact-hero-box {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #433068;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    
+  }
+  
+  #contact-hero-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #contact-hero-msg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    color: #ffffff;
+
+  }
+  
+  .contact-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .message-button {
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 30px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .message-button:hover {
+    background-color: #c8b5ee;
+    color: #000000;
+  }
+  
+  #social {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    gap: 20px;
+    justify-items: center; 
+    align-items: center; 
+    width: 300px; 
+    margin: 0 auto; 
+    padding: 100px;
+  }
+  #linkedin-box{
+    grid-column: 1/10;
+    grid-row: 1/2;
+    width: 300px;
+    margin-bottom: 100px;
+  }
+
+  #email-box{
+    grid-column: 1/10;
+    grid-row: 2/2;
+    width: 300px;
+  }
+  
+  
+  .linkedin-title, .email-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #linkedin-contact-img, #email-contact-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #linkedin-contact-img:hover, #email-contact-img:hover {
+    transform: scale(1.05);
+  }
+  
+
+
+
+
   
   /* 100% Image Width on Smaller Screens */
   @media only screen and (max-width: 700px){
