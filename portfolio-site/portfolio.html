@@ -25,15 +25,117 @@
             <div id="projects">
                 <section id="nft-box">
                     <h2 class="nft-title">NFT Collection Project</h2>
-                    <img id="nft-img" src="./images/nft-card.PNG" alt="nft Picture" width="800px">
+                    <img id="nft-img" src="./images/nft-card.PNG" alt="NFT Project" width="400px">
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                        <!-- The Close Button -->
+                        <span class="close">&times;</span>
+
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" id="img01">
+
+                        <!-- Modal Caption (Image Text) -->
+                        <div id="caption"></div>
+
+                        <script>
+                            // Get the modal
+                            var modal = document.getElementById("myModal");
+
+                            // Get the image and insert it inside the modal - use its "alt" text as a caption
+                            var img = document.getElementById("nft-img");
+                            var modalImg = document.getElementById("img01");
+                            var captionText = document.getElementById("caption");
+                            img.onclick = function () {
+                                modal.style.display = "block";
+                                modalImg.src = this.src;
+                                captionText.innerHTML = this.alt;
+                            }
+
+                            // Get the <span> element that closes the modal
+                            var span = document.getElementsByClassName("close")[0];
+
+                            // When the user clicks on <span> (x), close the modal
+                            span.onclick = function () {
+                                modal.style.display = "none";
+                            }
+                        </script>
+                    </div>
                 </section>
                 <section id="product-box">
                     <h2 class="product-title">Product Project</h2>
-                    <img id="product-img" src="./images/product.PNG" alt="product Picture" width="800px">
+                    <img id="product-img" src="./images/product.PNG" alt="Product Project" width="400px">
+                    <div id="productModal" class="modal">
+
+                        <!-- The Close Button -->
+                        <span class="close-product">&times;</span>
+
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" id="productModalImg">
+
+                        <!-- Modal Caption (Image Text) -->
+                        <div id="productCaption"></div>
+
+                        <script>
+                            // Get the product modal
+                            var productModal = document.getElementById("productModal");
+
+                            // Get the product image and insert it inside the product modal - use its "alt" text as a caption
+                            var productImg = document.getElementById("product-img");
+                            var productModalImg = document.getElementById("productModalImg");
+                            var productCaptionText = document.getElementById("productCaption");
+                            productImg.onclick = function () {
+                                productModal.style.display = "block";
+                                productModalImg.src = this.src;
+                                productCaptionText.innerHTML = this.alt;
+                            }
+
+                            // Get the <span> element that closes the product modal
+                            var productSpan = document.getElementsByClassName("close-product")[0];
+                            // When the user clicks on <span> (x), close the product modal
+                            productSpan.onclick = function () {
+                                productModal.style.display = "none";
+                            }
+                        </script>
+                    </div>
                 </section>
+
                 <section id="results-box">
                     <h2 class="results-title">Results Summary Project</h2>
-                    <img id="results-img" src="./images/results-img.jpg" alt="results Picture" width="800px">
+                    <img id="results-img" src="./images/results-img.jpg" alt="Results Project" width="400px">
+                    <div id="resultsModal" class="modal">
+                        <!-- The Close Button -->
+                        <span class="close-results">&times;</span>
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" id="resultsModalImg">
+                        <!-- Modal Caption (Image Text) -->
+                        <div id="resultsCaption"></div>
+                        <script>
+                            // Get the results modal
+                            var resultsModal = document.getElementById("resultsModal");
+                        
+                            // Get the results image and insert it inside the results modal - use its "alt" text as a caption
+                            var resultsImg = document.getElementById("results-img");
+                            var resultsModalImg = document.getElementById("resultsModalImg");
+                            var resultsCaptionText = document.getElementById("resultsCaption");
+                            resultsImg.onclick = function () {
+                                resultsModal.style.display = "block";
+                                resultsModalImg.src = this.src;
+                                resultsCaptionText.innerHTML = this.alt;
+                            }
+                        
+                            // Get the <span> element that closes the results modal
+                            var resultsSpan = document.getElementsByClassName("close-results")[0];
+                        
+                            // When the user clicks on <span> (x), close the results modal
+                            resultsSpan.onclick = function () {
+                                resultsModal.style.display = "none";
+                            }
+                        </script>
+                        
+                    </div>
+
                 </section>
             </div>
 
