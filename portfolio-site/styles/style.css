@@ -44,14 +44,15 @@ nav a{
 }
 
 #hero-msg h1{
-    text-align: center;
+    text-align: left;
     color: #ffffff;
 }
 #hero-msg p{
-    text-align: center;
+    text-align: left;
     color: #c8b5ee;  
     font-size: 20px; 
     padding-bottom: 20px; 
+    
 }
 
 .button-box{
@@ -88,6 +89,7 @@ header{
 }
 .description p{
     color: #c8b5ee;
+    text-align: left;
 }
 
 
@@ -133,6 +135,7 @@ nav a:hover{
     justify-content: space-around;
     align-items: center;
 }
+
 
 
 footer a{
@@ -374,6 +377,7 @@ footer p{
   }
   
   #contact-hero-img {
+    width: 400px;
     max-width: 100%;
     height: auto;
   }
@@ -409,7 +413,7 @@ footer p{
   
   #social {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); 
+    grid-template-columns: repeat(10, 1fr); 
     grid-template-rows: repeat(2, 1fr); 
     gap: 20px;
     justify-items: center; 
@@ -422,13 +426,23 @@ footer p{
     grid-column: 1/10;
     grid-row: 1/2;
     width: 300px;
-    margin-bottom: 100px;
+    margin-bottom: -px;
+    
+
   }
+ .linkedin-text{
+    font-size: 23px;
+    text-align: left;
+ }
+  
 
   #email-box{
     grid-column: 1/10;
-    grid-row: 2/2;
+    grid-row: 4/2;
     width: 300px;
+    
+    
+    
   }
   
   
@@ -439,16 +453,28 @@ footer p{
   
   #linkedin-contact-img, #email-contact-img {
     max-width: 100%;
+    width: 400px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform .5s;
+    
+    
   }
   
   #linkedin-contact-img:hover, #email-contact-img:hover {
     transform: scale(1.05);
   }
-  
+  #nft-img{
+    width: 400px;
+  }
+ #product-img{
+    width: 400px;
+ }
+ #results-img{
+    width: 400px;
+ }
+ 
 
 
 
